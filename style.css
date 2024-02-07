@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-fundo: #EEEDEB;
+    --cor-primaria: #E0CCBE;
+    --cor-secundaria:#3C3633 ;
+    --cor-terciaria: #747264 ;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);    
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 12%;
+    position: relative;
+}
+
+.cabecalho::after {
+    content: ''; /* Adicionar conteúdo ao pseudo-elemento */
+    position: absolute; /* Definir a posição como absoluta para posicioná-lo em relação ao cabeçalho */
+    bottom: -25px; /* Posicionar o pseudo-elemento 10 pixels abaixo do cabeçalho */
+    left: 80px; /* Definir a distância da borda esquerda */
+    right: 80px; /* Definir a distância da borda direita */
+    border-bottom: 3px solid var(--cor-terciaria); /* Adicionar uma linha preta de 1px de espessura */
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.apresentacao,.apresentacao__apostila {
+    padding: 7% 12%;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao{
+    align-items: center;
+}
+
+.apresentacao__apostila {
+    flex-direction: column;
+}
+
+.apresentacao__imagem {
+    position: relative;
+    left: 70px;
+    width: 38%; /* Ajuste a largura conforme necessário */
+
+}
+
+.apresentacao__imagem:hover {
+    content: url('./assets/imagemhoverdahome.jpg');
+    transition: transform 0.3s ease-in-out, center 0.3s ease-in-out;
+    transform: scale(0.85); 
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo, .apresentacao__apostila__titulo{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__texto, .apresentacao__apostila__texto {
+    font-size:x-large;
+    font-family: var(--font-secundaria);
+    color: #747264;
+}
+
+.apresentacao__apostila__botoes, .apresentacao__apostila__botoes__novo {
+    padding: 8% 12%;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos flexíveis quebrem em várias linhas */
+    justify-content: space-between;
+    gap: 20px; /* Define o espaço entre os elementos */
+}
+
+.apresentacao__apostila__botoes__bloco, .apresentacao__apostila__botoes__novo {
+    width: calc((100% - 80px) / 3); /* Calcula a largura do bloco para caber três por linha com o gap */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+}
+
+.apresentacao__apostila__botoes__novo:hover{
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
+}
+
+.rodape{
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
