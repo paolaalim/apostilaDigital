@@ -14,7 +14,7 @@ possui como objetivo ajudar na organização dos estudos e conteúdos de forma d
 - `styles.css`: Arquivo CSS para estilização.
 - `app.js`: Arquivo JavaScript para funcionalidades interativas.
 
-## Imagem 
+## Imagens 
 ![image](https://github.com/paolaalim/Apostila-Digital/assets/132537333/339e750f-b161-4e1f-852d-9bf2e992550a)
 ![image](https://github.com/paolaalim/Apostila-Digital/assets/132537333/4b8560b8-0f65-40de-a9c5-3db45e17f93d)
 
