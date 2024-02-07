@@ -122,15 +122,16 @@ h1{
     font-family: var(--font-secundaria);
     font-weight: 600;
 }
+
 .apresentacao__apostila__botoes__bloco{
     color: var(--cor-secundaria);
 }
-
 
 .apresentacao__apostila__botoes__novo:hover{
     background-color: var(--cor-primaria);
     color: var(--cor-fundo);
 }
+
 .apresentacao__apostila__botoes__bloco:hover{
     background-color: var(--cor-terciaria);
     color: var(--cor-fundo);

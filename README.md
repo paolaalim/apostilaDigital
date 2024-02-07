@@ -10,9 +10,10 @@ possui como objetivo ajudar na organização dos estudos e conteúdos de forma d
 - JavaScript
 
 ## Estrutura de Pastas
-- `index.html`: Página inicial do aplicativo.
-- `styles.css`: Arquivo CSS para estilização.
-- `app.js`: Arquivo JavaScript para funcionalidades interativas.
+- `assets/`: Pasta contendo as fotos usadas no projeto.
+- `home.html`: Página inicial do aplicativo.
+- `apostilas.html`: Página para visualizar e gerenciar as apostilas.
+- `style.css`: Arquivo CSS para estilização.
 
 ## Imagens 
 ![image](https://github.com/paolaalim/Apostila-Digital/assets/132537333/339e750f-b161-4e1f-852d-9bf2e992550a)
