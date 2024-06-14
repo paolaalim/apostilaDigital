@@ -7,7 +7,7 @@
 
 :root {
     --cor-fundo: #EEEDEB;
-    --cor-primaria: #E0CCBE;
+    --cor-primaria: #49796b;
     --cor-secundaria:#3C3633 ;
     --cor-terciaria: #747264 ;
 
@@ -140,7 +140,7 @@ h1{
 .rodape{
     padding: 24px;
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--font-secundaria);
     font-size: 24px;
